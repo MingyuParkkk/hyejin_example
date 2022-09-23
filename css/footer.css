@@ -1,0 +1,65 @@
+/* footer 시작 */
+.footerbox{
+    width: 1600px;
+    height: 40vh;
+    margin: 10vh auto 4vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 51, 102, 0.1);
+}
+.footer_left{
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+.footer_right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.ft_logo{
+    width: 80%;
+    height: 10vh;
+    background: url(../img/footer_logo2.png) no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+.ft_textbox1{
+    width: 60%;
+    height: 12vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.ft_textbox1 .link{
+    width: 50%;
+    height: 4vh;
+    font-size: 20px;
+}
+.link i{font-size: 16px;}
+.ft_iconbox{
+    width: 10%;
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ft_iconbox img{height: 30px;}
+.youtube img{height: 28px;}
+.ft_textbox2{
+    width: 60%;
+    height: 10vh;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+.link:hover{
+    transform: translateY(-10%);
+}
+.ft_icon:hover{
+    transform: scale(1.1);
+}
